@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubbing Zone.lk</title>
+    <link rel="stylesheet" href="style/help.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="home.html"><button>Home</button></a>
+            <a href="help.html"><button>Help</button></a>
+            <a href="info.html"><button>Info</button></a>
+        </ul>
+        </nav>
+<center>
+    <section class="p1">
+        <video controls src="other/Minecraft_ How to Build an Ultimate Survival Base.mp4"></video>
+    </section>
+    <p>How to use the app</p>
+</center>
+
+<section class="p4">0</section>
+
+<section class="p2">
+    <div id="comment-container">
+        <form id="comment-form">
+            <input type="text" id="comment-input" placeholder="Add a comment...">
+            <button type="submit" class="k1">Submit</button>
+        </form>
+    </div>
+</section>
+
+<section class="p3"></section>
+
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load comments from local storage
+            loadComments();
+    
+            // Add event listener for the comment form
+            document.getElementById('comment-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+    
+                // Get the comment from the input
+                var commentText = document.getElementById('comment-input').value;
+    
+                // Save the comment to local storage
+                saveComment(commentText);
+    
+                // Display the comment on the page
+                displayComment(commentText);
+    
+                // Clear the input field
+                document.getElementById('comment-input').value = '';
+            });
+        });
+    
+        function saveComment(comment) {
+            // Get existing comments from local storage
+            var comments = JSON.parse(localStorage.getItem('comments')) || [];
+    
+            // Add the new comment to the array
+            comments.push(comment);
+    
+            // Save the updated array back to local storage
+            localStorage.setItem('comments', JSON.stringify(comments));
+        }
+    
+        function loadComments() {
+            // Get existing comments from local storage
+            var comments = JSON.parse(localStorage.getItem('comments')) || [];
+    
+            // Display each comment on the page
+            comments.forEach(function(comment) {
+                displayComment(comment);
+            });
+        }
+    
+        function displayComment(comment) {
+            // Create a new comment element
+            var commentElement = document.createElement('div');
+            commentElement.classList.add('comment');
+    
+            // Create a delete button for the comment
+            var deleteButton = document.createElement('span');
+            deleteButton.classList.add('delete-btn');
+            deleteButton.innerHTML = '&times;'; // Display 'x' for delete
+    
+            // Add event listener to delete the comment when the button is clicked
+            deleteButton.addEventListener('click', function() {
+                deleteComment(commentElement, comment);
+            });
+    
+            // Append the delete button to the comment element
+            commentElement.appendChild(deleteButton);
+    
+            // Display the comment text
+            commentElement.appendChild(document.createTextNode(comment));
+    
+            // Append the comment element to the container
+            document.getElementById('comment-container').appendChild(commentElement);
+        }
+    
+        function deleteComment(commentElement, comment) {
+            // Remove the comment from local storage
+            var comments = JSON.parse(localStorage.getItem('comments')) || [];
+            var index = comments.indexOf(comment);
+            if (index !== -1) {
+                comments.splice(index, 1);
+                localStorage.setItem('comments', JSON.stringify(comments));
+            }
+    
+            // Remove the comment element from the page
+            commentElement.remove();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubbing Zone.lk</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="https://prod.spline.design/5Cbe7zLdbwWHzWwv/scene.splinecode">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<header class="header">
+    <nav>
+
+        <ul>
+              <a href="home.html" class="active"><button>Home</button></a>
+              <a href="help.html"><button>Help</button></a>
+              <a href="info.html"><button>Info</button></a>
+        </ul>
+        </nav>
+</header>
+
+
+<center>
+    <section class="p1">
+        <img src="imeages/dubbing.png" alt="img" width="1400px">
+    </section>
+</center>
+
+
+<section class="p3"> 0</section>
+
+<section class="p2">
+        <img src="imeages/exclamation-mark.png" alt="img" width="130px" style="margin-right: 30px;">
+        <p class="te">This app is only for model use <br> you can download it in play store and as a apk file</p>
+</section>
+
+<section class="p4">0</section>
+
+<section>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openpopup()">Download</button>
+        <div class="popup" id="popup">
+            <table>
+                <td class="p5">
+                    <img src="imeages/android.png" alt="img" width="50px">
+                    <button class="btn arn">Android</button>
+                    <p class="info">This is a apk </p>
+                </td>
+                <td class="p5">
+                    <img src="imeages/apple_152752.png" alt="img" width="50px">
+                    <button class="btn ios">apple</button>
+                    <p class="info">This in the ios playstore</p>
+                </td>
+            </table>
+        </div>
+    </div>
+</section>
+
+<footer> 0</footer>
+
+<script>
+    let popup = document.getElementById("popup");
+
+    function openpopup () {
+        popup.classList.add("open-popup")
+    }
+
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+   
+</script>
+</body>
+</html>
