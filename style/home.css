@@ -1,0 +1,397 @@
+ul button{
+border: none;
+background-color: transparent;
+color: white;
+font-size: 25px;
+margin-left: 300px;
+text-decoration:underline ;
+}
+
+header{
+    background-color: rgb(63, 63, 63);
+    margin-top: -8px;
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    margin-top: -8px;
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: black;
+}
+
+p.te{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.p2{
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 22%;
+}
+
+.p2 p{
+    text-align: center;
+}
+
+.p3{
+    background-color: rgb(138, 1, 1);
+    color: rgb(138, 1, 1);
+    margin-top: -5px;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.p4{
+    background-color: rgb(138, 1, 1);
+    color: rgb(138, 1, 1);
+    margin-top: 8px;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    color: #fff;
+    padding: 10px 10px;
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.popup{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: absolute;
+    text-align: center;
+    padding: 70px 70px 0;
+    color: #333;
+    padding-left: 20px;
+    transform: scale(0.1);
+    visibility: hidden;
+    transition: transfrom 0.8s,hidden 0.8s;
+}
+
+.open-popup{
+    visibility: visible;
+    transform: scale(1);
+}
+
+.ios{
+    margin-left: 20px;
+}
+
+.arn{
+    margin-right: 20px;
+}
+
+.info{
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 18px;
+}
+
+@media (max-width : 1414px) {
+    .p1 img{
+        width: 1200px;
+    }
+}
+@media (max-width : 1305px) {
+    ul button {
+        margin-left: 250px;
+    }
+}
+@media (max-width : 1210px) {
+    .p1 img{
+        width: 1000px;
+    }
+}
+@media (max-width : 1198px) {
+    .p2{
+        margin-left: 12%;
+    }
+}
+@media (max-width : 1110px) {
+    .p1 img{
+        width: 800px;
+    }
+    ul button {
+        margin-left: 200px;
+    }
+}
+@media (max-width : 1020px) {
+    .p2{
+        margin-left: 14%;
+    }
+    .p2 p{
+        font-size: 25px;
+    }
+    .p2 img{
+        width: 110px;
+    }
+}
+@media (max-width : 981px) {
+    ul button {
+        margin-left: 170px;
+    }
+}
+@media (max-width : 896px) {
+    .p2{
+        margin-left: 14%;
+    }
+    .p2 p{
+        font-size: 20px;
+    }
+    .p2 img{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width : 806px) {
+    .p1 img{
+        width: 600px;
+    }
+}
+@media (max-width : 769px) {
+    ul button {
+        margin-left: 120px;
+    }
+}
+@media (max-width : 746px) {
+    ul button {
+        margin-left: 120px;
+    }
+}
+@media (max-width : 680px) {
+    .p2{
+        margin-left: 8%;
+    }
+    ul button {
+        margin-left: 100px;
+    }
+}
+@media (max-width : 615px) {
+    .p1 img{
+        width: 400px;
+    }
+    .p2 p{
+        font-size: 16px;
+    }
+    ul button {
+        margin-left: 80px;
+        font-size: 20px;
+    }
+}
+@media (max-width : 605px) {
+.popup{
+    width: 300px;
+}
+.popup img{
+    width: 30px;
+}
+.arn{
+    width: 150px;
+    font-size: 18px;
+}
+.ios{
+    width: 150px;
+    font-size: 18px;
+}
+.popup p{
+    font-size: 14px;
+}
+
+
+}
+@media (max-width : 522px) {
+    .p2{
+        margin-left: 4%;
+    }
+    .p2 img{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .btn{
+        width: 150px;
+        font-size: 20px;
+    }
+    ul button{
+        margin-left: 60px;
+    }
+
+}
+@media (max-width : 425px) {
+    .p1 img{
+        width: 350px;
+    }
+    ul button{
+        font-size: 16px;
+        margin-left: 55px;
+    }
+    .popup{
+        width: 200px;
+    }
+    .popup img{
+        width: 25px;
+    }
+    .arn{
+        width: 100px;
+        font-size: 16px;
+    }
+    .ios{
+        width: 100px;
+        font-size: 16px;
+    }
+    .popup p{
+        font-size: 10px;
+    }
+    .p2 p{
+        font-size: 12px;
+    }
+    .p2 img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (max-width: 376px) {
+    .p1 img{
+        width: 300px;
+    }
+    ul button{
+        margin-left: 30px;
+    }
+    .p2 p{
+        font-size: 11px;
+    }
+    .p2 img {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 328px) {
+    .p1 img{
+        width: 250px;
+    }
+    .p2 p{
+        font-size: 9px;
+    }
+    .p2 img {
+        width: 30px;
+        height: 30px;
+    }
+    .p3{
+        font-size: 10px;
+        margin-bottom: -40px;
+    }
+    .p4{
+        font-size: 10px;
+    }
+    .btn{
+        width: 100px;
+        font-size: 14px;
+    }
+    .popup{
+        height: 80px;
+        padding-bottom: 10px;
+    }
+    .p5 img{
+        margin-top: -20px;
+    }
+}
+@media (max-width : 280px) {
+    ul button {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .popup{
+        width: 120px;
+        height: 50px;
+        padding-bottom: 10px;
+    }
+    .arn{
+        width: 70px;
+        font-size: 12px;
+    }
+    .ios{
+        width: 70px;
+        font-size: 12px;
+    }
+    .p5 img {
+        width: 25px;
+    }
+    table{
+        margin-left: -10px;
+        margin-top: -40px;
+    }
+    .info{
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 241px) {
+    .p1 img{
+        width: 200px;
+    }
+    ul button {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .popup{
+        width: 120px;
+        height: 50px;
+        padding-bottom: 10px;
+    }
+    .arn{
+        width: 70px;
+        font-size: 12px;
+    }
+    .ios{
+        width: 70px;
+        font-size: 12px;
+    }
+    .p5 img {
+        width: 25px;
+    }
+    table{
+        margin-left: -10px;
+        margin-top: -40px;
+    }
+    .info{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+
+ul button{
+border: none;
+background-color: transparent;
+color: white;
+font-size: 25px;
+margin-left: 300px;
+text-decoration:underline ;
+}
+
+nav{
+    margin-top: -8px;
+    margin-left: -7px;
+    margin-right: -7px;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+video{
+    width: 800px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.p1{
+    background-color: rgba(255, 255, 255, 0.107);
+    margin-left: -7px;
+    margin-right: -7px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.107);
+    margin-top: -0px;
+    padding-bottom: 20px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.p4{
+    background-color: rgb(163, 1, 1);
+    color: rgb(163, 1, 1);
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -25px;
+}
+.p2{
+    margin-top: 40px;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: -9px;
+}
+#comment-container {
+        width: 800px;
+        margin: auto;
+    }
+
+    #comment-input {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .comment {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .delete-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        color: red;
+    }
+    button.k1{
+        background-color: green;
+        border: none;
+        width: 200px;
+        height: 30px;
+        border-radius: 25px;
+        color: white;
+        margin-left: 35%;
+    }
+    
+

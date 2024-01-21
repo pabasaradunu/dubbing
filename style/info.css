@@ -1,0 +1,199 @@
+ul button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    margin-left: 300px;
+    text-decoration:underline ;
+    }
+    
+    nav{
+        margin-top: -8px;
+        margin-left: -7px;
+        margin-right: -7px;
+        background-color: rgb(63, 63, 63);
+        display: flex;
+        flex-direction: row;
+    }
+
+    body{
+        background-color: black;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    img.m1{
+        margin-top: 50px;
+        border-radius: 50%;
+    }
+    h1{
+        font-size: 27px;
+    }
+    .p3{
+        margin-top: -20px;
+        background-image: linear-gradient(to right, rgb(137, 0, 0),rgb(17, 16, 16));
+        color:  rgb(137, 0, 0);
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+    P{
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .p1{
+        background-color: rgba(255, 255, 255, 0.137);
+        padding-bottom: 20px;
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+    h2{
+        visibility: hidden;
+    }
+    .btn img{
+        width: 30px;
+        height: 30px;
+    }
+    .btn{
+        background-color: transparent;
+        border: none;
+    }
+    footer{
+        background-color: rgba(255, 255, 255, 0.279);
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    @media (max-width : 1291px) {
+        ul button {
+            margin-left: 250px;
+        }
+    }
+    @media (max-width :1024px) {
+        ul button {
+            margin-left: 230px;
+        }
+    }
+    @media (max-width :1017px) {
+        ul button {
+            margin-left: 200px;
+        }
+    }
+    @media (max-width :1024px) {
+        ul button {
+            margin-left: 200px;
+        }
+    }
+    @media (max-width :912px) {
+        ul button {
+            margin-left: 170px;
+        }
+    }
+    @media (max-width :855px) {
+        ul button {
+            margin-left: 150px;
+        }
+    }
+    @media (max-width :712px) {
+        ul button {
+            margin-left: 100px;
+        }
+    }
+    @media (max-width :600px) {
+        ul button {
+            margin-left: 80px;
+        }
+    }
+    @media (max-width : 564px) {
+        p{
+            text-align: left;
+        }
+        .btn img{
+            width: 20px;
+            height: 20px;
+        }
+        ul button {
+            margin-left: 70px;
+            font-size: 20px;
+        }
+    }
+    @media (max-width :480px) {
+        ul button {
+            margin-left: 50px;
+        }
+    }
+    @media (max-width : 446px) {
+        p{
+            font-size: 20px;
+        }
+    }
+    @media (max-width :415px) {
+        ul button {
+            margin-left: 40px;
+        }
+    }
+    @media (max-width : 395px) {
+        ul button{
+            margin-left: 30px;
+        }
+    }
+    @media (max-width : 391px) {
+        p{
+            font-size: 18px;
+        }
+        h1{
+            font-size: 23px;
+        }
+        img.m1{
+            width: 200px;
+        }
+    }
+    @media (max-width :385px) {
+        ul button {
+            margin-left: 35px;
+            font-size: 18px;
+        }
+    }
+    @media (max-width :352px) {
+        ul button {
+            margin-left: 30px;
+            font-size: 16px;
+        }
+    }
+    @media (max-width :315px) {
+        ul button {
+            margin-left: 20px;
+            font-size: 16px;
+        }
+    }
+    @media (max-width : 312px) {
+        p{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 20px;
+        }
+    }
+    @media (max-width :241px) {
+        ul button {
+            margin-left: 10px;
+            font-size: 12.5px;
+        }
+    }
+    @media (max-width :225px) {
+        ul button {
+            margin-left: 5px;
+            font-size: 12.5px;
+        }
+    }
+    @media (max-width : 223px) {
+        img.m1{
+            width: 100px;
+        }
+        p{
+            font-size: 14px;
+        }
+        ul button {
+            margin-left: 5px;
+            font-size: 12.5px;
+        }
+    }
