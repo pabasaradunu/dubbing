@@ -95,7 +95,163 @@ p{
         height: 30px;
         border-radius: 25px;
         color: white;
-        margin-left: 35%;
+    }
+
+    @media (max-width : 1320px) {
+        ul button {
+            margin-left: 250px;
+        }
+    }
+    @media (max-width : 1180px) {
+        ul button {
+            margin-left: 200px;
+        }
+    }
+    @media (max-width : 995px) {
+        ul button {
+            margin-left: 150px;
+        }
+    }
+    @media (max-width : 840px) {
+        ul button {
+            margin-left: 120px;
+        }
+        video {
+            width: 700px;
+        }
+        #comment-container {
+            width: 700px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 720px) {
+        ul button {
+            margin-left: 100px;
+        }
+        video {
+            width: 600px;
+        }
+        #comment-container {
+            width: 600px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 660px) {
+        ul button {
+            margin-left: 80px;
+        }
+        video {
+            width: 500px;
+        }
+        #comment-container {
+            width: 500px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 570px) {
+        ul button {
+            margin-left: 60px;
+        }
+    }
+    @media (max-width : 520px) {
+        ul button {
+            margin-left: 70px;
+            font-size: 20px;
+        }
+        video {
+            width: 450px;
+        }
+        #comment-container {
+            width: 450px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 505px) {
+        ul button {
+            margin-left: 60px;
+        }
+    }
+    @media (max-width : 461px) {
+        ul button {
+            margin-left: 50px;
+        }
+        video {
+            width: 400px;
+        }
+        #comment-container {
+            width: 400px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 415px) {
+        ul button {
+            margin-left: 40px;
+        }
+        video {
+            width: 350px;
+        }
+        #comment-container {
+            width: 350px;
+            margin: auto;
+        }
+        .pp{
+            font-size: 17px;
+        }
+    }
+    @media (max-width : 395px) {
+        ul button {
+            margin-left: 35px;
+        }
+    }
+    @media (max-width : 390px) {
+        ul button {
+            margin-left: 35px;
+        }
+        video {
+            width: 300px;
+        }
+        #comment-container {
+            width: 300px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 361px) {
+        ul button {
+            margin-left: 35px;
+            font-size: 15px;
+        }
+    }
+    @media (max-width : 321px) {
+        ul button {
+            margin-left: 25px;
+        }
+        video {
+            width: 250px;
+        }
+        #comment-container {
+            width: 250px;
+            margin: auto;
+        }
+    }
+    @media (max-width : 281px) {
+        ul button {
+            margin-left: 15px;
+        }
+    }
+    @media (max-width : 241px) {
+        ul button {
+            margin-left: 5px;
+        }
+        video {
+            width: 200px;
+        }
+        #comment-container {
+            width: 200px;
+            margin: auto;
+        }
+        button.k1{
+            width: 150px;
+        }
     }
     
 
